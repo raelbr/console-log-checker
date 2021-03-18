@@ -1,0 +1,27 @@
+{
+  "name": "console-log-checker",
+  "version": "0.1.0",
+  "description": "console.log checker for your commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raelbr/console-log-checker.git"
+  },
+  "public": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raelbr/console-log-checker/issues"
+  },
+  "homepage": "https://github.com/raelbr/console-log-checker#readme",
+  "dependencies": {
+    "execa": "^5.0.0"
+  },
+  "devDependencies": {
+    "husky": "^5.1.3"
+  }
+}
