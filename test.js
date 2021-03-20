@@ -1,1 +1,1 @@
-console.info("pass");
+console.log("not pass");
