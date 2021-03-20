@@ -1,10 +1,11 @@
 {
   "name": "console-log-checker",
   "version": "0.1.0",
-  "description": "console.log checker for your commits",
+  "description": "javascript console.log checker for your commits",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "log-check": "node bin"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
     "url": "https://github.com/raelbr/console-log-checker/issues"
   },
   "homepage": "https://github.com/raelbr/console-log-checker#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "node bin"
+    }
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "execa": "^5.0.0"
