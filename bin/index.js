@@ -1,3 +1,7 @@
 const init = require("../lib");
 
-init();
+const _defaultConfig = {
+  passiveMode: false,
+};
+
+init(_defaultConfig);
