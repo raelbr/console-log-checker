@@ -17,12 +17,6 @@
     "url": "git+https://github.com/raelbr/console-log-checker.git"
   },
   "public": true,
-  "keywords": [],
-  "author": {
-    "name": "Rael Benassato Riolino",
-    "url": "https://github.com/raelbr"
-  },
-  "license": "ISC",
   "keywords": [
     "debug",
     "debugging",
@@ -32,12 +26,18 @@
     "commit",
     "git"
   ],
+  "author": {
+    "name": "Rael Benassato Riolino",
+    "url": "https://github.com/raelbr"
+  },
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/raelbr/console-log-checker/issues"
   },
   "homepage": "https://github.com/raelbr/console-log-checker#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "esm": "^3.2.25",
     "execa": "^5.0.0"
   },
   "devDependencies": {
