@@ -9,7 +9,7 @@ We recommend to use this package with husky.
 1. Install console-log-checker and husky
 
 ```
-$ npm install --save-dev husky console-log-checker
+$ npm install --save-dev husky@4 console-log-checker
 ```
 
 2. Add console-log-checker on your package.json scripts:
@@ -28,12 +28,6 @@ $ npm install --save-dev husky console-log-checker
       "pre-commit": "log-checker"
     }
   },
-```
-
-4. Init husky:
-
-```
-$ npx husky init
 ```
 
 You are ready to go!
