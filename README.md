@@ -9,25 +9,37 @@ We recommend to use this package with husky.
 1. Install console-log-checker and husky
 
 ```
-$ npm install --save-dev husky@4 console-log-checker
+npm install --save-dev husky console-log-checker
 ```
 
-2. Add console-log-checker on your package.json scripts:
+or
 
-```json
-  "scripts": {
-    "log-check": "console-log-checker",
-  },
+```
+yarn add husky console-log-checker --dev
 ```
 
-3. Add husky hook on your package.json:
+2. Active husky hooks:
 
-```json
-  "husky": {
-    "hooks": {
-      "pre-commit": "log-checker"
-    }
-  },
+```
+npx husky install
+```
+
+or
+
+```
+yarn husky install
+```
+
+3. Add husky hook for console-log-checker:
+
+```
+npx husky add .husky/pre-commit "npx console-log-checker"
+```
+
+or
+
+```
+yarn husky add .husky/pre-commit "npx console-log-checker"
 ```
 
 You are ready to go!
