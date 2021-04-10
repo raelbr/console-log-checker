@@ -4,7 +4,7 @@ The main goal for this package is to be used with git hooks like pre-commit or p
 
 We recommend to use this package with husky.
 
-With **console-log-checker**, wether you try to commit changes with `console.log` in your code, you can expect console-log-checker to warn you and abort the commit
+With **console-log-checker**, whenever you try to commit changes with `console.log` in your code, you can expect console-log-checker to warn you and abort the commit
 
 ![console.log found in 1 file](console-log-found.png)
 
